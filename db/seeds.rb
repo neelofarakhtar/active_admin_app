@@ -1,0 +1,16 @@
+mike = User.create(email:"mike@gmail.com",username:"mike")
+m1 = Article.create(content:"mike's portfolio")
+m2 = Article.create(content:"mike's 2nd portfolio")
+m3 = Article.create(content:"mike's 3rd portfolio")
+Post.create(article_id:m1.id,post_name:"AAPL")
+Post.create(article_id:m2.id,post_name:"MSFT")
+Post.create(article_id:m3.id,post_name:"TSLA")
+
+# Tessa
+tessa = User.create(email:"tessa@gmail.com",username:"tessa")
+t1 = Article.create(content:"tessa's portfolio")
+t2 = Article.create(content:"tessa's 2nd portfolio")
+t3 = Article.create(content:"tessa's 3rd portfolio")
+Post.create(article_id:t1.id,post_name:"AAPL")
+Post.create(article_id:t2.id,post_name:"MSFT")
+Post.create(article_id:t3.id,post_name:"TSLA")
